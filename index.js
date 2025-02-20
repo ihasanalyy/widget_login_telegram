@@ -8,8 +8,8 @@ const port = 3000;
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-const BOT_TOKEN = '7942623300:AAHCCQSd4Xoc1JnXprMY5Ix9-_xDo6brs5w'; // Replace with your actual bot token
-const BOT_USERNAME = 'bashiryBot'; // Your bot's username
+const BOT_TOKEN = ''; // Replace with your actual bot token
+const BOT_USERNAME = ''; // Your bot's username
 
 app.get('/', (req, res) => {
     res.send(`
